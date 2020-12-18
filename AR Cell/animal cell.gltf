@@ -1,0 +1,235 @@
+{
+   "accessors" : [
+      {
+         "bufferView" : 0,
+         "componentType" : 5126,
+         "count" : 165372,
+         "max" : [ 36.76213, 4.84034, 48.92034 ],
+         "min" : [ -12, -44.00034, 0 ],
+         "type" : "VEC3"
+      },
+      {
+         "bufferView" : 1,
+         "componentType" : 5125,
+         "count" : 165372,
+         "max" : [ 165371 ],
+         "min" : [ 0 ],
+         "type" : "SCALAR"
+      },
+      {
+         "bufferView" : 2,
+         "componentType" : 5126,
+         "count" : 165372,
+         "max" : [ 1, 0.9019607843137255, 0.8588235294117647 ],
+         "min" : [ 0, 0.04313725490196078, 0.1019607843137255 ],
+         "type" : "VEC3"
+      }
+   ],
+   "asset" : {
+      "extras" : {
+         "GOOGLE_processor_version" : 313310320
+      },
+      "generator" : "Autodesk.Tinkercad",
+      "version" : "2.0"
+   },
+   "bufferViews" : [
+      {
+         "buffer" : 0,
+         "byteLength" : 1984464,
+         "byteOffset" : 0,
+         "byteStride" : 12,
+         "target" : 34962
+      },
+      {
+         "buffer" : 0,
+         "byteLength" : 661488,
+         "byteOffset" : 1984464,
+         "target" : 34963
+      },
+      {
+         "buffer" : 0,
+         "byteLength" : 1984464,
+         "byteOffset" : 2645952,
+         "byteStride" : 12,
+         "target" : 34962
+      }
+   ],
+   "buffers" : [
+      {
+         "byteLength" : 4630416,
+         "uri" : "animal cell.bin"
+      }
+   ],
+   "cameras" : [
+      {
+         "perspective" : {
+            "yfov" : 0.7853981633974483,
+            "znear" : 0.1000000014901161
+         },
+         "type" : "perspective"
+      }
+   ],
+   "extensions" : {
+      "KHR_lights_punctual" : {
+         "lights" : [
+            {
+               "color" : [ 1, 0.9333333333333333, 0.8666666666666667 ],
+               "intensity" : 0.25,
+               "name" : "headLight",
+               "type" : "directional"
+            },
+            {
+               "color" : [ 1, 0.9333333333333333, 0.8666666666666667 ],
+               "intensity" : 0.324999988079071,
+               "name" : "keyLight",
+               "type" : "directional"
+            }
+         ]
+      }
+   },
+   "extensionsUsed" : [ "GOOGLE_backgrounds", "GOOGLE_camera_settings", "KHR_lights_punctual" ],
+   "extras" : {
+      "GOOGLE_initial_camera_motion" : {
+         "motionPath" : "FULL_ROTATION"
+      },
+      "GOOGLE_lighting_rig" : {
+         "disableShadows" : false
+      }
+   },
+   "materials" : [
+      {
+         "alphaCutoff" : 0.5,
+         "alphaMode" : "OPAQUE",
+         "doubleSided" : false,
+         "emissiveFactor" : [ 0, 0, 0 ],
+         "name" : "lambert2SG.001",
+         "pbrMetallicRoughness" : {
+            "metallicFactor" : 0.5,
+            "roughnessFactor" : 0.5
+         }
+      }
+   ],
+   "meshes" : [
+      {
+         "primitives" : [
+            {
+               "attributes" : {
+                  "COLOR_0" : 2,
+                  "POSITION" : 0
+               },
+               "indices" : 1,
+               "material" : 0,
+               "mode" : 4
+            }
+         ]
+      }
+   ],
+   "nodes" : [
+      {
+         "mesh" : 0,
+         "name" : "Mesh_Mesh_head_geo.001_lambert2SG.001"
+      },
+      {
+         "children" : [ 0 ],
+         "matrix" : [
+            1,
+            0,
+            0,
+            0,
+            0,
+            2.220446049250313e-16,
+            -1,
+            0,
+            0,
+            1,
+            2.220446049250313e-16,
+            0,
+            0,
+            0,
+            0,
+            1
+         ]
+      },
+      {
+         "children" : [ 3 ]
+      },
+      {
+         "children" : [ 4 ],
+         "extras" : {
+            "isTransformNode" : 1
+         },
+         "translation" : [ 8.87201897347277, 21.01021811372274, 19.70298961093135 ]
+      },
+      {
+         "children" : [ 1 ],
+         "translation" : [ -8.87201897347277, -21.01021811372274, -19.70298961093135 ]
+      },
+      {
+         "camera" : 0,
+         "children" : [ 6 ],
+         "rotation" : [
+            -0.1671750189201233,
+            0.6762164354923146,
+            0.1617212158348449,
+            0.6990208106830758
+         ],
+         "translation" : [ 77.32433238477334, 55.77845323737071, 21.97309959661099 ]
+      },
+      {
+         "extensions" : {
+            "KHR_lights_punctual" : {
+               "light" : 0
+            }
+         },
+         "extras" : {
+            "isHeadLight" : 1
+         },
+         "name" : "headLightNode",
+         "translation" : [ -35.42982840570531, 17.71491420285265, 17.71491420285265 ]
+      },
+      {
+         "extensions" : {
+            "KHR_lights_punctual" : {
+               "light" : 1
+            }
+         },
+         "extras" : {
+            "isKeyLight" : 1
+         },
+         "name" : "keyLightNode",
+         "rotation" : [ -0.7505326882858236, -0.3752663441429118, 0, 0.5439447166468927 ],
+         "scale" : [ 0, 0, 35.78412668976236 ],
+         "translation" : [ -16.33812993806448, 99.54969659425782, -16.81911894529653 ]
+      }
+   ],
+   "scene" : 0,
+   "scenes" : [
+      {
+         "extensions" : {
+            "GOOGLE_backgrounds" : {
+               "color" : [ 0.9333333333333333, 0.9333333333333333, 0.9333333333333333 ]
+            },
+            "GOOGLE_camera_settings" : {
+               "mode" : "movableOrbit",
+               "pivot" : [ 8.871934612982162, 21.03146515070517, 19.70230084999997 ]
+            }
+         },
+         "extras" : {
+            "GOOGLE_camera_index" : {
+               "cameraIndex" : 0,
+               "nodeIndex" : 5
+            },
+            "GOOGLE_geometry_data" : {
+               "stats" : {
+                  "centroid" : [ 19.44599675169788, 27.9814432147331, 18.96500774446583 ],
+                  "radius" : 35.42982840570531,
+                  "stdev" : 15.89969309074297
+               },
+               "visualCenterPoint" : [ 8.87201897347277, 21.01021811372274, 19.70298961093135 ]
+            }
+         },
+         "name" : "Tinkercad GLTF Scene",
+         "nodes" : [ 2, 5, 7 ]
+      }
+   ]
+}
